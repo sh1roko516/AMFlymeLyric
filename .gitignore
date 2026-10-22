@@ -1,0 +1,22 @@
+# build outputs (APK / dex / keystore / logs)
+build/
+.tmpcls/
+
+# reverse-engineering material: never commit
+out/
+apk/
+system/
+lsposed/
+SPW-Lyrics/
+work_lyric_sample.bin
+
+# local tooling binaries
+tools/dexsql.exe
+tools/devsql*
+
+# editors / OS
+.idea/
+*.iml
+*.log
+Thumbs.db
+.DS_Store
